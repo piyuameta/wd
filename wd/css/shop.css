@@ -175,6 +175,13 @@ body{
       box-shadow:rgb(218, 162, 21);
       border: 2px solid rgb(218, 162, 21);
     }
+      #nav-list {
+      margin-top: -70px;
+      margin-right: 10px;
+    }
+    #nav-list a span {
+      font-size: 1em;
+    }
   }
   /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
