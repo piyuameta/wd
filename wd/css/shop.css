@@ -1,0 +1,327 @@
+body{
+    background-color: rgb(218, 162, 21);
+    text-decoration: none;
+    font-size: 16px;
+}
+#header-nav {
+    background-color: maroon;
+    border-radius: 0;
+    border: 0;
+    height:130px;
+  }
+.navbar-brand {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    }
+.navbar-brand h1{
+    font-family: 'Lora', serif;
+    color: rgba(250, 195, 12, 0.815);
+    font-style: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 80px;
+    text-decoration: none;
+    padding-right: 10px;
+    margin-top: 0;
+    margin-bottom:0;
+    line-height: .75;
+    padding-top: 0;
+}
+#nav-list {
+  margin-top: -70px;
+  margin-right: 50px;
+}
+#nav-list a span {
+  font-size: 1em;
+}
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  align-content: center;
+  text-align: center;
+}
+#call-btn {
+    margin-top: 0;
+    text-align: right;
+    font-size: 20px;
+    font-family: 'Lora', serif;
+    color: rgba(218, 162, 21, 0.726);
+    padding-top: 0px;
+  }
+#call-btn a { /* Phone number */
+    text-align: right;
+    font-size: 15px;
+    padding-top: 0;
+    color: white;
+    
+  }
+  .container .jumbotron {
+    box-shadow: 0 0 50px #3F0C1F;
+    border: 2px solid #3F0C1F;
+  }
+  #main-content.container{
+    color:maroon;
+    font-family: 'Lora', serif;
+    font-size: 25px;
+  }
+
+  .panel-footer{
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+    color:white;
+    text-align: center;
+  }
+  .panel-footer div.row {
+    margin-bottom: 35px;
+    text-align: center;
+    padding-left:200px;
+    text-align: center;
+  }
+  #hours, #address {
+    line-height: 2;
+  }
+  #hours > span, #address > span {
+    font-size: 1.3em;
+  }
+  #address p {
+    color: #557c3e;
+    font-size: .8em;
+    line-height: 1.8;
+  }
+  .menu-item-title{
+    margin-bottom: 25px;
+  }
+  .menu-item-tile hr {
+    width: 80%;
+  }
+  .menu-item-tile .menu-item-price {
+    font-size: 1.1em;
+    text-align: center;
+    margin-top: -15px;
+    margin-right: -15px;
+  }
+  .menu-item-tile .menu-item-price span {
+    font-size: .6em;
+  }
+  .menu-item-photo {
+    position: relative;
+    border: 2px solid #3F0C1F; 
+    overflow: hidden;
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    max-width: 250px;
+  }
+  .menu-item-photo div {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 80px;
+    background-color:white;
+    text-align: center;
+  }
+  h3.menu-item-title {
+    margin: 0 0 10px;
+  }
+  .menu-item-details {
+    font-size: .9em;
+    font-style: italic;
+  }
+  .row div{
+    text-align: center;
+  }
+  @media (min-width: 1200px) {
+     /* Header */
+     .navbar-brand {
+      padding-top: 10px;
+      height: 60px;
+    }
+    .navbar-brand h1 { /* Restaurant name */
+      padding-top: 10px;
+      font-size: 5vw; /* 1vw = 1% of viewport width */
+    }
+    #call-btn{
+      font-size: 15px;
+      padding-top: 0px;
+    }
+    #call-btn > a {
+      font-size: 15px;
+      margin: 0 20px;
+      padding:10px;
+      border: 2px solid #fff;
+      background-color: #f6b319;
+      color: #951c49;
+    }
+    #xs-deliver {
+      margin-top: 5px;
+      font-size: .7em;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+    .container .jumbotron {
+      background: url('../images/pipe_1200.jpg') no-repeat;
+      height: 675px;
+      box-shadow:rgb(218, 162, 21);
+      border: 2px solid rgb(218, 162, 21);
+    }
+  }
+  /********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 60px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  #call-btn{
+    font-size: 15px;
+  }
+  #call-btn > a {
+    font-size: 10px;
+    margin: 0 20px;
+    padding: 0px;
+    border: 2px solid #fff;
+    background-color: #f6b419fa;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../images/pipe_992.jpg') no-repeat;
+    height: 558px;
+  }
+  /* End Home Page */
+}
+  /********** Small devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 60px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  #call-btn{
+    font-size: 15px;
+  }
+  #call-btn > a {
+    font-size: 15px;
+    margin: 0 20px;
+    padding: 0px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../images/pipe_768.jpg') no-repeat;
+    height: 432px;
+    
+  }
+  /* End Home Page */
+}
+  @media (max-width: 767px) {
+    /* Header */
+    .navbar-brand {
+      padding-top: 10px;
+      height: 60px;
+    }
+    .navbar-brand h1 { /* Restaurant name */
+      padding-top: 10px;
+      font-size: 6vw; /* 1vw = 1% of viewport width */
+    }
+    #call-btn{
+      font-size: 10px;
+    }
+    #call-btn > a {
+      font-size: 10px;
+      margin: 0 20px;
+      padding: 10px;
+      border: 2px solid #fff;
+      background-color: #faaf00e1;
+      color: #951c49;
+    }
+    #xs-deliver {
+      margin-top: 5px;
+      font-size: .7em;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+    #nav-list {
+     text-align: center;
+     font-size: 0.5em;
+     margin-top: -70px;
+    }
+    #nav-list a span {
+      font-size: 1em;
+      text-align: center;
+    }
+    #nav-list {
+      text-align: center;
+      font-size: 0.5em;
+      margin-top: -70px;
+     }
+     #nav-list a span {
+       font-size: 1em;
+       text-align: center;
+     }
+    @media (max-width: 479px) {
+      /* Header */
+      .navbar-brand h1 { /* Restaurant name */
+        padding-top: 5px;
+        font-size: 6vw;
+      }
+      .col-xxs-12{
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        float: left;
+        width: 100%;
+      }
+      #nav-list {
+        text-align: center;
+        font-size: 1em;
+        margin-top: 90px;
+       }
+       #nav-list a span {
+         font-size: 1em;
+         text-align: center;
+         margin-top: 90px;
+       }
+  }
+  
+}
+
+  
+
+
+
